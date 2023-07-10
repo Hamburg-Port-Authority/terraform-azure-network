@@ -7,7 +7,7 @@ The module is used to deploy azure network that will be needed for the kubernete
 # Example Use of Module:
 
     module "network" {
-    source                          = "github.com/la-cc/terraform-azure-network?ref=1.0.0"
+    source                          = "github.com/Hamburg-Port-Authority/terraform-azure-network?ref=1.0.1"
 
     resource_group_name             =  module.resource_group.name
     name                            = var.name
